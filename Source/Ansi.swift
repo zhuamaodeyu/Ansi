@@ -3,7 +3,7 @@ import BonMot
 import FootlessParser
 
 typealias Value = (String, [Code])
-private let manager = NSFontManager.shared()
+private let manager = NSFontManager.shared
 
 func process(string: String, using font: NSFont) throws -> NSAttributedString {
   do {
